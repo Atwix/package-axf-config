@@ -1,0 +1,21 @@
+{
+    "name": "atwix/module-base",
+    "description": "This extension define base functionality which will be used by other modules",
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "require": {
+        "php": "~7.4.0||~8.1.0",
+        "magento/module-backend": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Atwix\\Base\\": ""
+        }
+    }
+}
