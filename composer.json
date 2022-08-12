@@ -1,6 +1,6 @@
 {
-    "name": "atwix/module-base",
-    "description": "This extension define base functionality which will be used by other modules",
+    "name": "atwix/module-config",
+    "description": "This extension define config functionality which will be used by other modules",
     "type": "magento2-module",
     "license": [
         "OSL-3.0",
@@ -15,7 +15,7 @@
             "registration.php"
         ],
         "psr-4": {
-            "Atwix\\Base\\": ""
+            "Atwix\\Config\\": ""
         }
     }
 }

@@ -8,12 +8,12 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
     <menu>
-        <add id="Atwix_Base::menu"
+        <add id="Atwix_Config::menu"
              title="Atwix Extensions"
              translate="title"
-             module="Atwix_Base"
+             module="Atwix_Config"
              sortOrder="75"
-             dependsOnModule="Atwix_Base"
-             resource="Atwix_Base::menu"/>
+             dependsOnModule="Atwix_Config"
+             resource="Atwix_Config::menu"/>
     </menu>
 </config>

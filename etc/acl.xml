@@ -10,7 +10,7 @@
     <acl>
         <resources>
             <resource id="Magento_Backend::admin">
-                <resource id="Atwix_Base::menu" title="Atwix Extensions" translate="title" sortOrder="100"/>
+                <resource id="Atwix_Config::menu" title="Atwix Extensions" translate="title" sortOrder="100"/>
             </resource>
         </resources>
     </acl>
